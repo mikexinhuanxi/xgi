@@ -24,6 +24,7 @@ Published Work
 [XGI] Cosimo Agostinelli, Marco Mancastroppa, and Alain Barrat, "Higher-order dissimilarity measures for hypergraph comparison", Journal of Complex Networks, Volume 14, Issue 1, cnaf048 (2026).
 
 :bdg-link-primary-line:`Paper <https://doi.org/10.1093/comnet/cnaf048>`
+:bdg-link-primary-line:`Code <https://github.com/cosimoagostinelli/Hor_dissimilarity_measures>`
 
 [XGI] Alyssa Smith, Ilya Amburg, Sagar Kumar, Brooke Foucault Welles, Nicholas W. Landry, "A Blue Start: A large-scale pairwise and higher-order social network dataset", *Scientific Data* **13**, 585 (2026).
 
