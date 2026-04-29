@@ -6,6 +6,26 @@ XGI has been used in a variety of published work and other software. This is a l
 
 Articles are listed by year and then alphabetically by the last name of the first author (and title if necessary).
 
+Software Packages (8 total)
+===========================
+
+8. `hoi <https://brainets.github.io/hoi/>`_
+
+7. `hypercontagion <https://hypercontagion.readthedocs.io/en/latest>`_
+
+6. `hyperidpath <https://github.com/922397935/hyperiDPath-master>`_
+
+5. `hyperspec <https://github.com/yaml-programming/hyperspec>`_
+
+4. `hypersync <https://github.com/maximelucas/hypersync>`_
+
+3. `pynetflow <https://github.com/anthbapt/pynetflow>`_
+
+2. `segram <https://github.com/sztal/segram>`_
+
+1. `simplicial-kuramoto <https://arnaudon.github.io/simplicial-kuramoto>`_
+
+
 Published Work (35 total)
 =========================
 
@@ -30,7 +50,6 @@ Published Work (35 total)
 
 :bdg-link-primary-line:`Paper <https://doi.org/10.1038/s41597-026-06920-1>`
 :bdg-link-primary-line:`Code <https://github.com/nwlandry/a-blue-start>`
-
 
 2025
 ----
@@ -94,7 +113,6 @@ Published Work (35 total)
 
 :bdg-link-primary-line:`Paper <https://doi.org/10.1093/bib/bbaf568>`
 
-
 2024
 ----
 
@@ -156,7 +174,6 @@ Published Work (35 total)
 :bdg-link-primary-line:`Paper <https://doi.org/10.1126/sciadv.ado8049>`
 :bdg-link-primary-line:`Code <https://github.com/maximelucas/basins_and_triangles>`
 
-
 2023
 ----
 
@@ -206,7 +223,6 @@ Preprints (8 total)
 :bdg-link-primary-line:`Paper <https://arxiv.org/abs/2603.02571>`
 :bdg-link-primary-line:`Code <https://github.com/nwlandry/higher-order-team-formation>`
 
-
 2025
 ----
 
@@ -232,7 +248,6 @@ Preprints (8 total)
 :bdg-link-primary-line:`Paper <https://arxiv.org/abs/2509.20174>`
 :bdg-link-primary-line:`Code <https://github.com/gisc-ufv/hyperSIS>`
 
-
 2024
 ----
 
@@ -249,7 +264,6 @@ Theses (6 total)
 
 6. [XGI] Corbit Sampson, "Complex Social Systems: Emergent Phenomena, Social Contagions, and Opinion Consensus", The University of Colorado at Boulder (2025).
 
-
 2024
 ----
 
@@ -260,7 +274,6 @@ Theses (6 total)
 4. [XGI, XGI-DATA] Yifei (Bell) Luo, "Efficient sampling of configuration model random hypergraphs", Middlebury College (2024).
 
 :bdg-link-primary-line:`Thesis <https://libstore.ugent.be/fulltxt/RUG01/003/150/699/RUG01-003150699_2023_0001_AC.pdf>`
-
 
 2023
 ----
@@ -273,28 +286,9 @@ Theses (6 total)
 
 :bdg-link-primary-line:`Thesis <https://webthesis.biblio.polito.it/27942/>`
 
-
 2022
 ----
 
 1. [XGI, XGI-DATA] Nicholas W. Landry, "Contagion on Complex Systems: Structure and Dynamics", The University of Colorado at Boulder (2022).
 
 :bdg-link-primary-line:`Thesis <https://www.proquest.com/docview/2672014395>`
-
-
-Software Packages (7 total)
-===========================
-
-7. `simplicial-kuramoto <https://arnaudon.github.io/simplicial-kuramoto>`_
-
-6. `segram <https://github.com/sztal/segram>`_
-
-5. `pynetflow <https://github.com/anthbapt/pynetflow>`_
-
-4. `hyperspec <https://github.com/yaml-programming/hyperspec>`_
-
-3. `hyperidpath <https://github.com/922397935/hyperiDPath-master>`_
-
-2. `hypercontagion <https://hypercontagion.readthedocs.io/en/latest>`_
-
-1. `hoi <https://brainets.github.io/hoi/>`_

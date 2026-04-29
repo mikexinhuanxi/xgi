@@ -98,8 +98,6 @@ def render_entries(entries_dict, kind="published"):
 
             counter -= 1
 
-        lines.append("")
-
     return "\n".join(lines)
 
 
@@ -153,6 +151,7 @@ def main():
     out.append("=" * length)
     out.append("")
     out.append(render_software(software))
+    out.append("\n")
 
     # Published
     published_header = f"Published Work ({len(published)} total)"
@@ -161,6 +160,7 @@ def main():
     out.append("=" * length)
     out.append("")
     out.append(render_entries(published, kind="published"))
+    out.append("")
 
     # Preprints
     preprints_header = f"Preprints ({len(preprints)} total)"
@@ -169,6 +169,7 @@ def main():
     out.append("=" * length)
     out.append("")
     out.append(render_entries(preprints, kind="preprint"))
+    out.append("")
 
     # Theses
     theses_header = f"Theses ({len(theses)} total)"
