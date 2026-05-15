@@ -45,8 +45,6 @@ statistics.  For more details, see the `tutorial
 """
 
 import numpy as np
-import pandas as pd
-from scipy.stats import moment as spmoment
 
 from ..exception import IDNotFound
 from ..utils import hist
@@ -165,6 +163,8 @@ class IDStat:
         The `name` attribute of the returned series is set using the `name` property.
 
         """
+        import pandas as pd
+
         return pd.Series(self._val, name=self.name)
 
     def ashist(self, bins=10, bin_edges=False, density=False, log_binning=False):
@@ -281,7 +281,11 @@ class IDStat:
 
         """
         arr = self.asnumpy()
-        return spmoment(arr, moment=order) if center else np.mean(arr**order).item()
+        if center:
+            from scipy.stats import moment as spmoment
+
+            return spmoment(arr, moment=order)
+        return np.mean(arr**order).item()
 
     def argmin(self):
         """The ID corresponding to the minimum of the stat
@@ -536,6 +540,8 @@ class MultiIDStat(IDStat):
         5       2    1.000000
 
         """
+        import pandas as pd
+
         result = {s.name: s._val for s in self.stats}
         series = [pd.Series(v, name=k) for k, v in result.items()]
         return pd.concat(series, axis=1)

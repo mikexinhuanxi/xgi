@@ -5,8 +5,9 @@ from os.path import join
 
 import pytest
 
-from xgi import download_xgi_data, load_xgi_data, read_json
+from xgi import download_xgi_data, load_xgi_data
 from xgi.exception import XGIError
+from xgi.readwrite.json import read_json
 
 
 @pytest.mark.skipif(
