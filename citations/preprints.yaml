@@ -12,6 +12,20 @@ cao_identifying_2026:
   links:
     paper: https://doi.org/10.36227/techrxiv.177223104.47525491/v1
 
+maia_nesting_2026:
+  tags:
+  - XGI-DATA
+  authors:
+  - Hugo P. Maia
+  - Guilherme Ferraz de Arruda
+  - Silvio C. Ferreira
+  - Yamir Moreno
+  title: Nesting Controls Phase Transitions in Higher-Order Contagion
+  year: 2026
+  reference: 'arXiv:2604.23337'
+  links:
+    paper: https://doi.org/10.48550/arXiv.2604.23337
+
 zajdela_higher-order_2026:
   tags:
   - XGI

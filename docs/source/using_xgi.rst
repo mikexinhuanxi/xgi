@@ -208,15 +208,19 @@ Published Work (35 total)
 :bdg-link-primary-line:`Code <https://github.com/maximelucas/HOI_shape_sync_differently>`
 
 
-Preprints (8 total)
+Preprints (9 total)
 ===================
 
 2026
 ----
 
-8. [XGI] Kun Cao, Guangzu Bai, and Li Li, "Identifying Disruptive Technologies via Dynamic Hypergraph Modeling and Large Language Models", TechRxiv (2026).
+9. [XGI] Kun Cao, Guangzu Bai, and Li Li, "Identifying Disruptive Technologies via Dynamic Hypergraph Modeling and Large Language Models", TechRxiv (2026).
 
 :bdg-link-primary-line:`Paper <https://doi.org/10.36227/techrxiv.177223104.47525491/v1>`
+
+8. [XGI-DATA] Hugo P. Maia, Guilherme Ferraz de Arruda, Silvio C. Ferreira, and Yamir Moreno, "Nesting Controls Phase Transitions in Higher-Order Contagion", arXiv:2604.23337 (2026).
+
+:bdg-link-primary-line:`Paper <https://doi.org/10.48550/arXiv.2604.23337>`
 
 7. [XGI] Emma Zajdela and Nicholas W. Landry, "Higher-order interactions at scientific conferences influence team formation", arXiv:2603.02571 (2026).
 
