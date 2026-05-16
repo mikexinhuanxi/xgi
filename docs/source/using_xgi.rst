@@ -233,6 +233,7 @@ Preprints (9 total)
 6. [XGI-DATA] Margherita Bertè and Tommaso Gili, "Fibration Symmetries and Cluster Synchronization in Multi-Body Systems", arXiv:2510.11207 (2025).
 
 :bdg-link-primary-line:`Paper <https://arxiv.org/abs/2510.11207>`
+:bdg-link-primary-line:`Code <https://github.com/margheritaberte/Fibration_symmetries_cluster_synchronization>`
 
 5. [XGI-DATA] Cameron Ibrahim, S M Ferdous, Ilya Safro, Marco Minutoli, and Mahantesh Halappanavar, "ELRUHNA: Elimination Rule-based Hypergraph Alignment", arXiv:2506.09866 (2025).
 
@@ -246,6 +247,7 @@ Preprints (9 total)
 3. [XGI] Timothy LaRock and Renaud Lambiotte, "Exploring the Non-uniqueness of Node Co-occurrence Matrices of Hypergraphs", arXiv:2506.01479 (2025).
 
 :bdg-link-primary-line:`Paper <https://arxiv.org/abs/2506.01479>`
+:bdg-link-primary-line:`Code <https://github.com/tlarock/twin_search/>`
 
 2. [XGI, XGI-DATA] Hugo P. Maia, Wesley Cota, Yamir Moreno, and Silvio C. Ferreira, "Efficient Gillespie algorithms for spreading phenomena in large and heterogeneous higher-order networks", arXiv:2509.20174 (2025).
 
@@ -267,6 +269,8 @@ Theses (6 total)
 ----
 
 6. [XGI] Corbit Sampson, "Complex Social Systems: Emergent Phenomena, Social Contagions, and Opinion Consensus", The University of Colorado at Boulder (2025).
+
+:bdg-link-primary-line:`Thesis <https://www.proquest.com/dissertations-theses/complex-social-systems-emergent-phenomena/docview/3205556558/se-2>`
 
 2024
 ----

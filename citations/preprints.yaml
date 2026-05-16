@@ -50,6 +50,7 @@ berte_fibration_2025:
   reference: 'arXiv:2510.11207'
   links:
     paper: https://arxiv.org/abs/2510.11207
+    code: https://github.com/margheritaberte/Fibration_symmetries_cluster_synchronization
 
 ibrahim_elruhna_2025:
   tags:
@@ -92,6 +93,7 @@ larock_exploring_2025:
   reference: 'arXiv:2506.01479'
   links:
     paper: https://arxiv.org/abs/2506.01479
+    code: https://github.com/tlarock/twin_search/
 
 maia_efficient_2025:
   tags:

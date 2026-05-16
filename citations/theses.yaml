@@ -7,7 +7,8 @@ sampson_complex_2025:
     Consensus'
   year: 2025
   university: 'The University of Colorado at Boulder'
-
+  links:
+    thesis: https://www.proquest.com/dissertations-theses/complex-social-systems-emergent-phenomena/docview/3205556558/se-2
 he_methods_2024:
   tags:
   - XGI
