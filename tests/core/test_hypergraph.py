@@ -1000,3 +1000,22 @@ def test_cleanup():
     assert cleanH["name"] == "test"
 
     assert cleanH._edge == xgi.dual_dict(cleanH._node)
+
+
+def test_cleanup_empties():
+    """cleanup should remove empty edges by default and keep them with empties=True."""
+    H = xgi.Hypergraph([[1, 2, 3], [3, 4]])
+    H._edge[2] = set()
+    H._edge_attr[2] = {}
+    assert H.num_edges == 3
+    assert set(H.edges.empty()) == {2}
+
+    # default: remove empties
+    cleanH = H.cleanup(connected=False, relabel=False, in_place=False)
+    assert cleanH.num_edges == 2
+    assert set(cleanH.edges.empty()) == set()
+
+    # empties=True: keep them
+    cleanH = H.cleanup(connected=False, empties=True, relabel=False, in_place=False)
+    assert cleanH.num_edges == 3
+    assert set(cleanH.edges.empty()) == {2}
