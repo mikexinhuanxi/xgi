@@ -253,3 +253,20 @@ def test_edge_positions_from_barycenters(edgelist1):
     for idx, e in H.edges.members(dtype=dict).items():
         mean_pos = np.mean([node_pos[n] for n in e], axis=0)
         assert np.allclose(edge_pos[idx], mean_pos)
+
+
+def test_spring_layouts_accept_rng(edgelist1):
+    """Spring layouts should accept np.random.Generator as seed (issue #712)."""
+    H = xgi.Hypergraph(edgelist1)
+    rng = np.random.default_rng(42)
+
+    # All four spring layouts should accept a Generator without erroring
+    xgi.pairwise_spring_layout(H, seed=rng)
+    xgi.barycenter_spring_layout(H, seed=rng)
+    xgi.weighted_barycenter_spring_layout(H, seed=rng)
+    xgi.bipartite_spring_layout(H, seed=rng)
+
+    # int seed still works
+    xgi.barycenter_spring_layout(H, seed=42)
+    # None still works
+    xgi.barycenter_spring_layout(H, seed=None)
