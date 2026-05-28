@@ -143,23 +143,43 @@ class IDView(Mapping, Set):
         return iter(self._ids)
 
     def __getitem__(self, idx):
-        """Get the attributes of the ID.
+        """Get the attribute dictionary of the node or edge with the given ID.
+
+        Note that this returns the **attributes** (a dict of metadata), not the
+        members of an edge or the edges containing a node. If no attributes have
+        been set, the returned dict is empty.
 
         Parameters
         ----------
         idx : hashable
-            node or edge ID
+            Node or edge ID.
 
         Returns
         -------
         dict
-            attributes associated to the ID.
+            Attributes associated with `idx`. Empty if none have been set.
 
         Raises
         ------
-        XGIError
-            If the id is not being kept track of by this view, or if id is not in the
-            hypergraph, or if id is not hashable.
+        IDNotFound
+            If `idx` is not in this view.
+
+        See Also
+        --------
+        :meth:`EdgeView.members` : Get the nodes that make up an edge.
+        :meth:`NodeView.memberships` : Get the edges containing a node.
+
+        Examples
+        --------
+        >>> import xgi
+        >>> H = xgi.Hypergraph([[1, 2, 3], [3, 4]])
+        >>> H.edges[0]                  # attribute dict (empty by default)
+        {}
+        >>> H.edges.members(0)          # the actual members of edge 0
+        {1, 2, 3}
+        >>> H.add_edge([5, 6], idx="e1", color="red")
+        >>> H.edges["e1"]               # attributes set at creation
+        {'color': 'red'}
 
         """
         if idx not in self:
@@ -576,6 +596,9 @@ class NodeView(IDView):
     `tutorial
     <https://xgi.readthedocs.io/en/stable/api/tutorials/focus_6.html>`_.
 
+    Indexing with ``H.nodes[id]`` returns the node's **attribute dictionary**,
+    not the edges it belongs to. Use :meth:`memberships` for the latter.
+
     """
 
     _id_kind = "node"
@@ -687,6 +710,9 @@ class EdgeView(IDView):
     package are also accessible via the `EdgeView` class.  For more details, see the
     `tutorial
     <https://xgi.readthedocs.io/en/stable/api/tutorials/focus_6.html>`_.
+
+    Indexing with ``H.edges[id]`` returns the edge's **attribute dictionary**,
+    not its members. Use :meth:`members` for the latter.
 
     """
 
