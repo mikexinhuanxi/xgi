@@ -596,6 +596,9 @@ class NodeView(IDView):
     `tutorial
     <https://xgi.readthedocs.io/en/stable/api/tutorials/focus_6.html>`_.
 
+    Indexing with ``H.nodes[id]`` returns the node's **attribute dictionary**,
+    not the edges it belongs to. Use :meth:`memberships` for the latter.
+
     """
 
     _id_kind = "node"
@@ -707,6 +710,9 @@ class EdgeView(IDView):
     package are also accessible via the `EdgeView` class.  For more details, see the
     `tutorial
     <https://xgi.readthedocs.io/en/stable/api/tutorials/focus_6.html>`_.
+
+    Indexing with ``H.edges[id]`` returns the edge's **attribute dictionary**,
+    not its members. Use :meth:`members` for the latter.
 
     """
 
